@@ -9,3 +9,8 @@ def format_result(result):
 def get_operations_list():
     """Возвращает список доступных операций"""
     return ['+', '-', '*', '/', '%']
+
+def divide_by_zero(number):
+    """Проверяет, является ли число нулем"""
+    return number == 0
+

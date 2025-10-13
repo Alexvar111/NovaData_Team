@@ -1,3 +1,5 @@
+from calc_utils  import power
+
 def calculator(a, b, operation):
     """Простой калькулятор"""
     if operation == '+':
@@ -11,6 +13,8 @@ def calculator(a, b, operation):
             return a / b
         else:
             return "Ошибка: деление на ноль"
+    elif operation == '^':
+        return power(a,b)
     else:
         return "Неизвестная операция"
 
