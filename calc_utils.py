@@ -1,6 +1,9 @@
-def power(a, b):
+def power(a, b, c):
 
-    result = a ** b
+    result = a + b * c
     return result
+
+
+
 
 
